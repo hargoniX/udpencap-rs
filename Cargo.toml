@@ -8,7 +8,13 @@ edition = "2018"
 [dependencies]
 tun = { version = "0.5", git = "https://github.com/hargonix/rust-tun" }
 mio = { version = "0.7.13", features = ["os-ext", "os-poll", "net"] }
-futures = "0.3"
 crypto = { version = "0.3", features = ["aead", "std"] }
-bytes = "1.1.0"
 aes-gcm = "0.9.4"
+block-modes = "0.8"
+block-padding = "0.2"
+byteorder = "1.4"
+generic-array = "0.14"
+typenum = "1.14"
+hmac = "0.11"
+sha2 = "0.9"
+aes = "0.7"

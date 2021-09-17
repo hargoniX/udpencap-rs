@@ -5,6 +5,7 @@ pub enum Error {
     InvalidPadding,
     DecryptionFailure,
     EncryptionFailure,
+    Foo
 }
 
 pub type Result<T> = std::result::Result<T, Error>;
